@@ -17,6 +17,10 @@
 		745BDCA12260FD90006EE1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745BDC9F2260FD90006EE1C1 /* LaunchScreen.storyboard */; };
 		745BDCAC2260FD90006EE1C1 /* FloppyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BDCAB2260FD90006EE1C1 /* FloppyBirdTests.swift */; };
 		745BDCB72260FD90006EE1C1 /* FloppyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BDCB62260FD90006EE1C1 /* FloppyBirdUITests.swift */; };
+		745BDCC52260FE21006EE1C1 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 745BDCC42260FE21006EE1C1 /* CoinSound.mp3 */; };
+		745BDCC72260FF78006EE1C1 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BDCC62260FF78006EE1C1 /* GameElements.swift */; };
+		745BDCC92260FFFC006EE1C1 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 745BDCC82260FFFC006EE1C1 /* player.atlas */; };
+		745BDCCB22611047006EE1C1 /* neck_snap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 745BDCCA22611046006EE1C1 /* neck_snap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		745BDCB22260FD90006EE1C1 /* FloppyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		745BDCB62260FD90006EE1C1 /* FloppyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBirdUITests.swift; sourceTree = "<group>"; };
 		745BDCB82260FD90006EE1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745BDCC42260FE21006EE1C1 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		745BDCC62260FF78006EE1C1 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		745BDCC82260FFFC006EE1C1 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		745BDCCA22611046006EE1C1 /* neck_snap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = neck_snap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 		745BDC8F2260FD8E006EE1C1 /* FloppyBird */ = {
 			isa = PBXGroup;
 			children = (
+				745BDCC42260FE21006EE1C1 /* CoinSound.mp3 */,
+				745BDCCA22611046006EE1C1 /* neck_snap.mp3 */,
 				745BDC902260FD8E006EE1C1 /* AppDelegate.swift */,
 				745BDC922260FD8E006EE1C1 /* GameScene.sks */,
 				745BDC942260FD8E006EE1C1 /* Actions.sks */,
@@ -112,6 +122,8 @@
 				745BDC9D2260FD90006EE1C1 /* Assets.xcassets */,
 				745BDC9F2260FD90006EE1C1 /* LaunchScreen.storyboard */,
 				745BDCA22260FD90006EE1C1 /* Info.plist */,
+				745BDCC62260FF78006EE1C1 /* GameElements.swift */,
+				745BDCC82260FFFC006EE1C1 /* player.atlas */,
 			);
 			path = FloppyBird;
 			sourceTree = "<group>";
@@ -239,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				745BDC9C2260FD8E006EE1C1 /* Main.storyboard in Resources */,
+				745BDCC52260FE21006EE1C1 /* CoinSound.mp3 in Resources */,
 				745BDC932260FD8E006EE1C1 /* GameScene.sks in Resources */,
 				745BDC9E2260FD90006EE1C1 /* Assets.xcassets in Resources */,
+				745BDCC92260FFFC006EE1C1 /* player.atlas in Resources */,
+				745BDCCB22611047006EE1C1 /* neck_snap.mp3 in Resources */,
 				745BDCA12260FD90006EE1C1 /* LaunchScreen.storyboard in Resources */,
 				745BDC952260FD8E006EE1C1 /* Actions.sks in Resources */,
 			);
@@ -267,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745BDCC72260FF78006EE1C1 /* GameElements.swift in Sources */,
 				745BDC972260FD8E006EE1C1 /* GameScene.swift in Sources */,
 				745BDC992260FD8E006EE1C1 /* GameViewController.swift in Sources */,
 				745BDC912260FD8E006EE1C1 /* AppDelegate.swift in Sources */,
